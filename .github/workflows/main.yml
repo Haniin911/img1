@@ -13,9 +13,7 @@ jobs:
     steps:
       - name: 'Test GitHub'
         run: pwd
-
-      - name: 'Test Print'
-        run: echo Haneen
+      - uses: actions/checkout@v3
 
 
 
