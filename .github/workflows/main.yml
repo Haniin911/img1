@@ -1,1 +1,21 @@
+on:
+  push:
+    branches:
+      - master
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Test GitHub'
+        run: pwd
+
+      - name: 'Test Print'
+        run: echo Haneen
+
+
 
